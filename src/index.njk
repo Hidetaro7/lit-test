@@ -1,0 +1,15 @@
+---
+layout: post
+title: Hello World
+---
+
+<h1>Hello</h1>
+
+<script type="module" src="/script/my-elements.js"></script>
+<script type="module" src="/script/modal-dialog.js"></script>
+<div x-data @foo="console.log('foo was dispatched')">
+  <my-element mylabel="click me!!!"></my-element>
+</div>
+<div x-data>
+  <modal-dialog> </modal-dialog>
+</div>

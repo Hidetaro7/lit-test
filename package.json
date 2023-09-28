@@ -7,6 +7,7 @@
     "url": "https://github.com/tuqulore/website-boilerplate/issues"
   },
   "dependencies": {
+    "lit": "^2.8.0",
     "serve-handler": "6.1.5"
   },
   "devDependencies": {
